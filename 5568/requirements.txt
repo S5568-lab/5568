@@ -1,5 +1,2 @@
-# requirements.txt - 项目依赖的 Python 包
-# 例如：
-# requests
-# numpy
-# flask
+# 项目依赖包
+# 目前没有外部依赖，仅使用标准库

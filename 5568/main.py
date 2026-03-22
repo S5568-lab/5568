@@ -1,10 +1,12 @@
-# main.py - 这是你的主程序
-print("你好！OpenClaw 项目启动成功！")
+import time
+from datetime import datetime
 
-def run():
-    print("正在运行主程序...")
-    # 你可以把你的代码写在这里
-    pass
+def main():
+    print("✅ 本地运行成功！")
+    print("当前时间:", datetime.now().strftime("%H:%M:%S"))
+
+    # 保持窗口不闪退
+    input("\n按回车键退出...")
 
 if __name__ == "__main__":
-    run()
+    main()
